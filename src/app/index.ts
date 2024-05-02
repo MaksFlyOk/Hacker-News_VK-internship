@@ -1,0 +1,2 @@
+export { AxiosHackerNewsAPI } from './AxiosInstance'
+

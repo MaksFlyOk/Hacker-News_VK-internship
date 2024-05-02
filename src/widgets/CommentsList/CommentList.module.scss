@@ -1,0 +1,12 @@
+.commentListWrapper {
+	position: relative;
+}
+
+.commentSeparator {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 1.5px;
+	background-color: var(--vkui--color_separator_primary);
+}

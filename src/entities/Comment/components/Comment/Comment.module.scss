@@ -1,0 +1,22 @@
+@import '../../../../assets/styles/mixins';
+
+.commentWrapper {
+	padding-inline: var(--vkui--size_form_item_padding_vertical--regular);
+}
+
+.miniInfoCellTimeStyles {
+	padding-inline: 0;
+}
+
+.textCommentStyles {
+	margin: 0 0 var(--vkui--size_form_item_padding_vertical--regular)
+		var(--vkui--size_form_item_padding_vertical--regular);
+}
+
+.quantityCommentButtonStyles {
+	@include mini-info-cell-styles;
+}
+
+.commentQuantityButtonWrapper {
+	margin-bottom: var(--vkui--size_form_item_padding_vertical--regular);
+}

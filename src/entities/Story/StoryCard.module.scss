@@ -1,0 +1,9 @@
+@import '../../assets/styles/mixins';
+
+.spinnerWrapper {
+	@include spinner-wrapper-styles;
+}
+
+.miniInfoCellStyles {
+	@include mini-info-cell-styles;
+}

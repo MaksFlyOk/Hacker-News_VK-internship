@@ -1,0 +1,12 @@
+@mixin spinner-wrapper-styles {
+	padding: var(--vkui--size_form_item_padding_vertical--regular);
+	height: calc(116px - (12px * 2));
+}
+@mixin spinner-styles {
+	margin: 20px 0;
+}
+
+@mixin mini-info-cell-styles {
+	padding-block: 4;
+	padding-inline: 0;
+}

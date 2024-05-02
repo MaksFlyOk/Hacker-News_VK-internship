@@ -1,0 +1,15 @@
+@import '../../assets/styles/mixins';
+
+.spinnerStyles {
+	@include spinner-styles;
+}
+
+.storyInfoWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: var(--vkui--size_button_group_gap_medium--regular);
+}
+
+.miniInfoCellStyles {
+	@include mini-info-cell-styles;
+}
